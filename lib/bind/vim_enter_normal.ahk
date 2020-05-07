@@ -1,6 +1,11 @@
 ﻿#If WinActive("ahk_group " . Vim.GroupName)
-Esc::Vim.State.HandleEsc()
+CapsLock::Vim.State.HandleEsc()
 ^[::Vim.State.SetNormal()
+
+
+#If !WinActive("ahk_group " . Vim.GroupName)
+CapsLock::SendInput, {Esc}
+
 
 #If WinActive("ahk_group " . Vim.GroupName) and (Vim.State.StrIsInCurrentVimMode( "Insert")) and (Vim.Conf["VimJJ"]["val"] == 1)
 ~j up:: ; jj: go to Normal mode.
