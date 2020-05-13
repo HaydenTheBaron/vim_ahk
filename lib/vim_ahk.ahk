@@ -205,7 +205,6 @@ class VimAhk{
                   , "ahk_exe TeraPad.exe"   ; TeraPad
                   , "ahk_exe texstudio.exe" ; TexStudio
                   , "ahk_exe texworks.exe"  ; TexWork
-                  , "ahk_exe Code.exe"      ; Visual Studio Code
                   , "ahk_exe WINWORD.exe"   ; Word
                   , "ahk_exe wordpad.exe"   ; WordPad
                   , "ahk_exe chrome.exe"    ; Google Chrome

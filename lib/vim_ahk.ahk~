@@ -208,9 +208,6 @@ class VimAhk{
                   , "ahk_exe Code.exe"      ; Visual Studio Code
                   , "ahk_exe WINWORD.exe"   ; Word
                   , "ahk_exe wordpad.exe"   ; WordPad
-                  , "ahk_exe wt.exe"        ; Windows Terminal (Doesn't work)
-                  , "ahk_exe Powershell.exe" ; Windows Powershell
-                  , "ahk_exe firefox.exe"   ; Firefox
                   , "ahk_exe chrome.exe"    ; Google Chrome
                   , "ahk_exe matlab.exe"    ; Matlab Editor
                   , "ahk_exe Word.exe"      ; Microsoft Office Word                  , "ahk_exe Excel.exe"     ; Microsoft Office Excel
