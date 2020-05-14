@@ -1,6 +1,8 @@
 # vim_ahk
 
-Setting file/exe file of AutoHotkey for Vim emulation.
+Hayden's setting file/exe file of AutoHotkey for Vim emulation. It is the same as the ahk script it is forked off of with the following differences:
+1. The capslock key acts like the escape key always--even on apps that are not listed on the apps list
+2. The default apps that this script works with are different (see file vim_ahk.ahk)
 
 vim.ahk is the setting file for [AutoHotkey](http://www.autohotkey.com/)(Autohotkey_L).
 
