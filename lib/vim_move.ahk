@@ -132,7 +132,8 @@
   SendUp(){
     ; Only for OneNote of less than windows 10?
     if WinActive("ahk_group VimOneNoteGroup"){
-      run, %A_scriptdir%\lib\util\sendUp.exe
+      ;run, %A_scriptdir%\lib\util\sendUp.exe
+      ControlSend, OneNote::DocumentCanvas1,{up 1},ahk_exe ONENOTE.EXE
     } else {
       Send,{Up}
     }
@@ -141,7 +142,8 @@
   SendDown(){
     ; Only for OneNote of less than windows 10?
     if WinActive("ahk_group VimOneNoteGroup"){
-      run, %A_scriptdir%\lib\util\sendDown.exe
+      ;run, %A_scriptdir%\lib\util\sendDown.exe ;; HL: this file can't be found.
+      ControlSend, OneNote::DocumentCanvas1,{down 1},ahk_exe ONENOTE.EXE
     } else {
       Send,{Down}
     }
