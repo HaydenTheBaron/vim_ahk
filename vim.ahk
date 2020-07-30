@@ -40,4 +40,6 @@ Return
 <!+6:: Send +{Home}
 <!+4:: Send +{End}
 
+AppsKey::RCtrl
+
 
