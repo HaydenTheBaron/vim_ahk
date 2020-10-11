@@ -210,7 +210,9 @@ class VimAhk{
                   , "ahk_exe chrome.exe"    ; Google Chrome
                   , "ahk_exe matlab.exe"    ; Matlab Editor
                   , "ahk_exe Word.exe"      ; Microsoft Office Word                  , "ahk_exe Excel.exe"     ; Microsoft Office Excel
-		  , "Acrobat"
+                  , "Racket"                ; Dr. Racket
+	          , "Acrobat"               ; Adobe Acrobat
+		  , "Obsidian"              ; Obsidian
                   , "Discord"
                   , "Your Phone"
                   , "Alarm"
