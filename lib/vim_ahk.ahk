@@ -212,7 +212,6 @@ class VimAhk{
                   , "ahk_exe Word.exe"      ; Microsoft Office Word                  , "ahk_exe Excel.exe"     ; Microsoft Office Excel
                   , "Racket"                ; Dr. Racket
 	          , "Acrobat"               ; Adobe Acrobat
-		  , "Obsidian"              ; Obsidian
                   , "Discord"
                   , "Your Phone"
                   , "Alarm"
