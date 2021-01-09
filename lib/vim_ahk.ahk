@@ -207,7 +207,6 @@ class VimAhk{
                   , "ahk_exe texworks.exe"  ; TexWork
                   , "ahk_exe WINWORD.exe"   ; Word
                   , "ahk_exe wordpad.exe"   ; WordPad
-                  , "ahk_exe chrome.exe"    ; Google Chrome
                   , "ahk_exe matlab.exe"    ; Matlab Editor
                   , "ahk_exe Word.exe"      ; Microsoft Office Word                  , "ahk_exe Excel.exe"     ; Microsoft Office Excel
                   , "Racket"                ; Dr. Racket
